@@ -1,0 +1,46 @@
+body
+{
+    background-image: url(zdjecie.png);
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+
+img
+{
+    width: 900px;
+    height: 500px;
+    opacity: 1;
+}
+
+#tak
+{
+    width: 970px;
+    position: relative;
+    background: #999;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#opis
+{
+    width: 300px;
+    position: relative;
+    font-size: 20px;
+    background: #888;
+    padding: 15px;
+    border-radius: 15px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#stopka
+{
+    width: 1340px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: #777;
+    border-radius: 20px 20px 0px 0px;
+}
